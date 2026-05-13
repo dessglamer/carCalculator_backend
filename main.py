@@ -11,7 +11,7 @@ if __name__ == '__main__':
         calculator.ElectricCar("Tesla Model 3", 200000, 5500, 150),
     )
     calc.add_car(
-        calculator.Car("Range Rover", 650000, 3,
+        calculator.Car("BMW 7", 650000, 3,
                        service_cost=3000, insurance_cost=7000),
     )
     calc.print_cars()
